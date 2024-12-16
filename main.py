@@ -3,8 +3,9 @@
 # throughout this file
 import pygame
 from constants import *
-from player import *
-from asteroidfield import *
+from player import Player
+from asteroid import Asteroid
+from asteroidfield import AsteroidField
 def main():
     print("Starting asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
@@ -23,7 +24,7 @@ def main():
     x = SCREEN_WIDTH / 2
     y = SCREEN_HEIGHT / 2
     player = Player(x,y)
-    asteroid = AsteroidField()####
+    asteroid_field = AsteroidField()####
 
     while(run):
         for event in pygame.event.get():
