@@ -4,6 +4,7 @@
 import pygame
 from constants import *
 from player import *
+from asteroidfield import *
 def main():
     print("Starting asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
