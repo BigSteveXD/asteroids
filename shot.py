@@ -1,4 +1,4 @@
-from cicleshape import CicleShape
+from circleshape import CircleShape
 class Shot:
     def __init__(self, x, y, radius):
         super().__init__(x, y, radius)
